@@ -1,0 +1,41 @@
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+
+# LangChain 生态
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+langchain-experimental>=0.0.60
+langchain-core>=0.2.0
+
+# 向量数据库
+pymilvus>=2.4.0
+
+# Embedding & Reranker（BGE 系列）
+FlagEmbedding>=1.2.0
+sentence-transformers>=3.0.0
+
+# 文档解析
+PyMuPDF>=1.24.0
+unstructured[pdf]>=0.14.0
+python-docx>=1.1.0
+openpyxl>=3.1.0
+pandas>=2.2.0
+tabulate>=0.9.0       # pandas to_markdown 依赖
+
+# 认证
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.9
+
+# Redis
+redis>=5.0.0
+aiofiles>=23.2.0
+
+# 速率限制
+slowapi>=0.1.9
+
+# 工具
+httpx>=0.27.0
